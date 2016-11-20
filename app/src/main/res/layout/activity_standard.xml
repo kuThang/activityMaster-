@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is standard Activity!"
+        android:textSize="30dp"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call itself"
+        android:id="@+id/button_standard_activity_call_itself"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call itself with CLEAR_TOP"
+        android:id="@+id/button_standard_activity_call_itself_with_clear_top"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call itself with CLEAR_TASK"
+        android:id="@+id/button_standard_activity_call_itself_with_clear_task"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call itself with SINGLE_TOP"
+        android:id="@+id/button_standard_activity_call_itself_with_single_top"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call SingleTop Activity"
+        android:id="@+id/button_standard_activity_call_singleTop_Activity"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="372dp"
+        android:layout_height="54dp"
+        android:text="Call SingleTask Activity"
+        android:id="@+id/button_standard_activity_call_singleTask_Activity"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentEnd="true" />
+</LinearLayout>
